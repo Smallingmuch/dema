@@ -1,0 +1,16 @@
+body{
+    /* background:linear-gradient(0deg, rgba(255, 0, 149, 0.616), rgba(255, 0, 149, 0.699)), url('../images/2.jpg'); */
+    background:url('../images/2.jpg') rgba(12, 69, 224, 0.795);
+    /* background-size:cover; */
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.form-control{
+    border: 1px solid green;
+    border-radius: 0 0;
+}
+.form-control:focus{
+    box-shadow: none;
+    border:1px solid red;
+}
