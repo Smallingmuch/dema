@@ -3,12 +3,10 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Section1 -  Wetinunawant</title>
+    <title>Sections -  Wetinunawant</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="lib/main.css" />
-    <link rel="stylesheet" type="text/css" media="screen" href="lib/bootstrap/dist/css/font-awesome.min.css" />
-   <!-- <img src="images/3.jpg" class="img-fluid shadow-lg"/> -->
 
 </head>
 <body>
@@ -21,21 +19,21 @@
                         </div>
                     </div>
                 </div>
-                <form class="row mt-2" method="GET">
-                    <div class="col-md-12">
-                            <div id="accordion">
+                <form class="row mt-2" method="POST">
+                    <div class="col-md-12 card p-4">
+                        <div id="accordion" >
 
                                     <div class="card shadow-lg" style="border-radius: 0;">
-                                      <div class="card-header bg-info">
-                                        <a class="card-link text-white h5" data-toggle="collapse" href="#collapseOne">
+                                      <div class="card-header bg-info shadow-lg">
+                                        <a class="card-link text-white h5" >
                                          Personal Details
-                                         <span class="float-right h6">Hide</span>
+                                         <span class="float-right h6"data-toggle="collapse" href="#collapseOne">Hide</span>
                                         </a>
                                       </div>
-                                      <div id="collapseOne" class="collapsed show" data-parent="#accordion">
+                                      <div id="collapseOne" class="collapsed show" >
                                         <div class="card-body">
                                             <p><i class="fa fa-asterisk text-info"></i> Please kindly provide the answers to the below listed questions as much as you know correctly</p>
-                                                <div class="row p-3">                        
+                                                <div class="row p-4">                        
 
                                                         <div class="col-md-4">
                                                    
@@ -144,16 +142,16 @@
                                   
                                   
                                     <div class="card" style="border-radius: 0;">
-                                      <div class="card-header bg-info">
-                                        <a class="collapsed card-link text-white border-0 h5" data-toggle="collapse" href="#collapseThree">
+                                      <div class="card-header bg-info shadow-lg">
+                                        <a class="collapsed card-link text-white border-0 h5" >
                                           Primary School
-                                          <span class="float-right h6">Hide</span>
+                                          <span class="float-right h6"data-toggle="collapse" href="#collapseTwo">Hide</span>
                                         </a>
                                       </div>
-                                      <div id="collapseThree" class="collapsed" data-parent="#accordion">
+                                      <div id="collapseTwo" class="collapsed show">
                                         <div class="card-body">
                                                 <p><i class="fa fa-asterisk text-info"></i> Please kindly provide the answers to the below listed questions as much as you know correctly</p>
-                                                <div class="row p-3">                        
+                                                <div class="row p-4">                        
 
                                                         <div class="col-md-4">
                                                    
@@ -161,11 +159,11 @@
                                                                     <label class="h6">1. Do you have a public primary school in your community?</label>
                                                                     <div class="form-check">
                                                                             <label class="form-check-label">
-                                                                                    <input type="radio" name="pschool" class="form-check-input"/> &nbsp; Yes
+                                                                                    <input type="radio" name="pschool" class="form-check-input"/>Yes
                                                                             </label>
-                                                                            &nbsp; &nbsp; &nbsp;  &nbsp; 
+                                                                            &nbsp; &nbsp; 
                                                                             <label class="form-check-label">
-                                                                                    &nbsp;  <input type="radio" name="pschool" class="form-check-input"/> &nbsp; No
+                                                                                    &nbsp;  <input type="radio" name="pschool" class="form-check-input"/>No
                                                                             </label>
                                                                     </div>
 
@@ -180,15 +178,15 @@
                                                                     <label class="h6">2.If no, how far away is the next public primary school?</label>
                                                                     <div class="form-check">
                                                                             <label class="form-check-label">
-                                                                                    <input type="radio" name="pschool" class="form-check-input"/> &nbsp; Near
+                                                                                    <input type="radio" name="pschoolnext" class="form-check-input"/>Near
                                                                             </label>
-                                                                            &nbsp; &nbsp; &nbsp;  &nbsp;
+                                                                            &nbsp; &nbsp;                                                                            
                                                                             <label class="form-check-label">
-                                                                                    &nbsp;  <input type="radio" name="pschool" class="form-check-input"/> &nbsp; Far
+                                                                                    &nbsp;  <input type="radio" name="pschoolnext" class="form-check-input"/>Far
                                                                             </label>
-                                                                            &nbsp; &nbsp; &nbsp;  &nbsp; 
+                                                                            &nbsp; &nbsp; 
                                                                             <label class="form-check-label">
-                                                                                    &nbsp; <input type="radio" name="pschool" class="form-check-input"/> &nbsp; Very Far
+                                                                                    &nbsp; <input type="radio" name="pschoolnext" class="form-check-input"/>Very Far
                                                                             </label>
                                                                     </div>
                                                                     </div>
@@ -196,68 +194,1464 @@
                                                                  
                                                                  </div> 
 
-                                                                  
-                                                         <div class="col-md-4">
+                                                    
+
+
+                                                                 <div class="col-md-4">
                                                    
-                                                                <div class="form-group">
-                                                                    <label class="h6">3. Are there enough chairs and tables?</label>
-                                                                    <div class="form-check">
-                                                                            <label class="form-check-label">
-                                                                                    <input type="radio" name="pschool" class="form-check-input"/> &nbsp; Yes
-                                                                            </label>
-                                                                            &nbsp; &nbsp; &nbsp;  &nbsp; 
-                                                                            <label class="form-check-label">
-                                                                                    &nbsp; <input type="radio" name="pschool" class="form-check-input"/> &nbsp; No
-                                                                            </label>
-                                                                           
-                                                                    </div>
-                                                                    </div>
+                                                                        <div class="form-group">
+                                                                            <label class="h6">3. Are there enough chairs and tables?</label>
+                                                                            <div class="form-check">
+                                                                                    <label class="form-check-label">
+                                                                                            <input type="radio" name="pschoolitem" class="form-check-input"/>Yes
+                                                                                    </label>
+                                                                                    &nbsp; &nbsp;  
+                                                                                    <label class="form-check-label">
+                                                                                            &nbsp; <input type="radio" name="pschoolitem" class="form-check-input"/>No
+                                                                                    </label>
+                                                                                   
+                                                                            </div>
+                                                                            </div>
+        
+                                                                         
+                                                                         </div> 
 
+                                                                         <div class="col-md-4">
+                                                   
+                                                                                <div class="form-group">
+                                                                                    <label class="h6">4. Are there enough teachers?</label>
+                                                                                    <div class="form-check">
+                                                                                            <label class="form-check-label">
+                                                                                                    <input type="radio" name="pschoolteacher" class="form-check-input"/>Yes
+                                                                                            </label>
+                                                                                            &nbsp; &nbsp;  
+                                                                                            <label class="form-check-label">
+                                                                                                    &nbsp; <input type="radio" name="pschoolteacher" class="form-check-input"/>No
+                                                                                            </label>
+                                                                                           
+                                                                                    </div>
+                                                                                    </div>
+                
+                                                                                 
+                                                                                 </div> 
+
+                                                                                <div class="col-md-4">
+                                                   
+                                                                                        <div class="form-group">
+                                                                                            <label class="h6">5. Are there enough class room blocks?</label>
+                                                                                            <div class="form-check">
+                                                                                                    <label class="form-check-label">
+                                                                                                            <input type="radio" name="classroom" class="form-check-input"/>Yes
+                                                                                                    </label>
+                                                                                                    &nbsp; &nbsp;  
+                                                                                                    <label class="form-check-label">
+                                                                                                            &nbsp; <input type="radio" name="classroom" class="form-check-input"/>No
+                                                                                                    </label>
+                                                                                                   
+                                                                                            </div>
+                                                                                        </div>
+                        
+                                                                                         
+                                                                                </div> 
+
+
+                                                                                <div class="col-md-4">
+                                                   
+                                                                                        <div class="form-group">
+                                                                                            <label class="h6">6. Is the primary school in use by pupils?</label>
+                                                                                            <div class="form-check">
+                                                                                                    <label class="form-check-label">
+                                                                                                            <input type="radio" name="pupils" class="form-check-input"/>Yes
+                                                                                                    </label>
+                                                                                                    &nbsp; &nbsp;  
+                                                                                                    <label class="form-check-label">
+                                                                                                            &nbsp; <input type="radio" name="pupils" class="form-check-input"/>No
+                                                                                                    </label>
+                                                                                                   
+                                                                                            </div>
+                                                                                        </div>
+                        
+                                                                                         
+                                                                                </div> 
+
+
+
+                                                                                <div class="col-md-4">
+                                                   
+                                                                                        <div class="form-group">
+                                                                                            <label class="h6">7. Are there enough teachers in the primary school?</label>
+                                                                                            <div class="form-check">
+                                                                                                    <label class="form-check-label">
+                                                                                                            <input type="radio" name="schoolteacher" class="form-check-input"/>Yes
+                                                                                                    </label>
+                                                                                                    &nbsp; &nbsp;  
+                                                                                                    <label class="form-check-label">
+                                                                                                            &nbsp; <input type="radio" name="schoolteacher" class="form-check-input"/>No
+                                                                                                    </label>
+                                                                                                   
+                                                                                            </div>
+                                                                                        </div>
+                        
+                                                                                         
+                                                                                </div>    
+
+
+                                                                                <div class="col-md-4">
+                                                   
+                                                                                        <div class="form-group">
+                                                                                            <label class="h6">8. Does the primary school have toilets?</label>
+                                                                                            <div class="form-check">
+                                                                                                    <label class="form-check-label">
+                                                                                                            <input type="radio" name="toilet" class="form-check-input"/>Yes
+                                                                                                    </label>
+                                                                                                    &nbsp; &nbsp;  
+                                                                                                    <label class="form-check-label">
+                                                                                                            &nbsp; <input type="radio" name="toilet" class="form-check-input"/>No
+                                                                                                    </label>
+                                                                                                   
+                                                                                            </div>
+                                                                                        </div>
+                        
+                                                                                         
+                                                                                </div>  
+
+
+                                                                                <div class="col-md-4">
+                                                   
+                                                                                        <div class="form-group">
+                                                                                            <label class="h6">9. If yes, are the toilets in use?</label>
+                                                                                            <div class="form-check">
+                                                                                                    <label class="form-check-label">
+                                                                                                            <input type="radio" name="toiletuse" class="form-check-input"/>Yes
+                                                                                                    </label>
+                                                                                                    &nbsp; &nbsp;  
+                                                                                                    <label class="form-check-label">
+                                                                                                            &nbsp; <input type="radio" name="toiletuse" class="form-check-input"/>No
+                                                                                                    </label>
+                                                                                                   
+                                                                                            </div>
+                                                                                        </div>
+                        
+                                                                                         
+                                                                                </div> 
+                                                                                
+                                                                                
+                                                                                <div class="col-md-4">
+                                                   
+                                                                                        <div class="form-group">
+                                                                                            <label class="h6">10. Does the primary school have water source/supply?</label>
+                                                                                            <div class="form-check">
+                                                                                                    <label class="form-check-label">
+                                                                                                            <input type="radio" name="water" class="form-check-input"/>Yes
+                                                                                                    </label>
+                                                                                                    &nbsp; &nbsp;  
+                                                                                                    <label class="form-check-label">
+                                                                                                            &nbsp; <input type="radio" name="water" class="form-check-input"/>No
+                                                                                                    </label>
+                                                                                                   
+                                                                                            </div>
+                                                                                        </div>
+                        
+                                                                                         
+                                                                                </div> 
+
+                                                                                <div class="col-md-4">
+                                                                                        <div class="form-group">
+                                                                                           <label class="h6">Gender</label>
+                                                                                          <textarea class="form-control" rows="2"></textarea>    
+                                                                                       </div> 
+                                                                                </div>
                                                                  
-                                                                 </div> 
                                                          </div>
 
 
                         
-                                                         <div class="col-md-4">
-                                                                 <div class="form-group">
-                                                                    <label class="h6">Gender</label>
-                                                                   <textarea class="form-control" rows="2"></textarea>    
-                                                                </div> 
-                                                         </div>
-                                          
+                                                       
                                                          
                                               
                                                         </div>
                                         </div>
                                       </div>
-                                    </div>
+
+
+                                      <div class="card" style="border-radius: 0;">
+                                        <div class="card-header bg-info shadow-lg">
+                                          <a class="collapsed card-link text-white border-0 h5" >
+                                            Secondary School
+                                            <span class="float-right h6"data-toggle="collapse" href="#collapseThree">Hide</span>
+                                          </a>
+                                        </div>
+                                        <div id="collapseThree" class="collapsed show">
+                                          <div class="card-body">
+                                                  <p><i class="fa fa-asterisk text-info"></i> Please kindly provide the answers to the below listed questions as much as you know correctly</p>
+                                                  <div class="row p-4">                        
+  
+                                                          <div class="col-md-4">
+                                                     
+                                                                  <div class="form-group">
+                                                                      <label class="h6">1. Do you have a public primary school in your community?</label>
+                                                                      <div class="form-check">
+                                                                              <label class="form-check-label">
+                                                                                      <input type="radio" name="pschool" class="form-check-input"/>Yes
+                                                                              </label>
+                                                                              &nbsp; &nbsp; 
+                                                                              <label class="form-check-label">
+                                                                                      &nbsp;  <input type="radio" name="pschool" class="form-check-input"/>No
+                                                                              </label>
+                                                                      </div>
+  
+                                                                   
+                                                                   </div> 
+                                                           </div>
+  
+                                                          
+                                                           <div class="col-md-4">
+                                                     
+                                                                  <div class="form-group">
+                                                                      <label class="h6">2.If no, how far away is the next public primary school?</label>
+                                                                      <div class="form-check">
+                                                                              <label class="form-check-label">
+                                                                                      <input type="radio" name="pschoolnext" class="form-check-input"/>Near
+                                                                              </label>
+                                                                              &nbsp; &nbsp;                                                                            
+                                                                              <label class="form-check-label">
+                                                                                      &nbsp;  <input type="radio" name="pschoolnext" class="form-check-input"/>Far
+                                                                              </label>
+                                                                              &nbsp; &nbsp; 
+                                                                              <label class="form-check-label">
+                                                                                      &nbsp; <input type="radio" name="pschoolnext" class="form-check-input"/>Very Far
+                                                                              </label>
+                                                                      </div>
+                                                                      </div>
+  
+                                                                   
+                                                                   </div> 
+  
+                                                      
+  
+  
+                                                                   <div class="col-md-4">
+                                                     
+                                                                          <div class="form-group">
+                                                                              <label class="h6">3. Are there enough chairs and tables?</label>
+                                                                              <div class="form-check">
+                                                                                      <label class="form-check-label">
+                                                                                              <input type="radio" name="pschoolitem" class="form-check-input"/>Yes
+                                                                                      </label>
+                                                                                      &nbsp; &nbsp;  
+                                                                                      <label class="form-check-label">
+                                                                                              &nbsp; <input type="radio" name="pschoolitem" class="form-check-input"/>No
+                                                                                      </label>
+                                                                                     
+                                                                              </div>
+                                                                              </div>
+          
+                                                                           
+                                                                           </div> 
+  
+                                                                           <div class="col-md-4">
+                                                     
+                                                                                  <div class="form-group">
+                                                                                      <label class="h6">4. Are there enough teachers?</label>
+                                                                                      <div class="form-check">
+                                                                                              <label class="form-check-label">
+                                                                                                      <input type="radio" name="pschoolteacher" class="form-check-input"/>Yes
+                                                                                              </label>
+                                                                                              &nbsp; &nbsp;  
+                                                                                              <label class="form-check-label">
+                                                                                                      &nbsp; <input type="radio" name="pschoolteacher" class="form-check-input"/>No
+                                                                                              </label>
+                                                                                             
+                                                                                      </div>
+                                                                                      </div>
+                  
+                                                                                   
+                                                                                   </div> 
+  
+                                                                                  <div class="col-md-4">
+                                                     
+                                                                                          <div class="form-group">
+                                                                                              <label class="h6">5. Are there enough class room blocks?</label>
+                                                                                              <div class="form-check">
+                                                                                                      <label class="form-check-label">
+                                                                                                              <input type="radio" name="classroom" class="form-check-input"/>Yes
+                                                                                                      </label>
+                                                                                                      &nbsp; &nbsp;  
+                                                                                                      <label class="form-check-label">
+                                                                                                              &nbsp; <input type="radio" name="classroom" class="form-check-input"/>No
+                                                                                                      </label>
+                                                                                                     
+                                                                                              </div>
+                                                                                          </div>
+                          
+                                                                                           
+                                                                                  </div> 
+  
+  
+                                                                                  <div class="col-md-4">
+                                                     
+                                                                                          <div class="form-group">
+                                                                                              <label class="h6">6. Is the primary school in use by pupils?</label>
+                                                                                              <div class="form-check">
+                                                                                                      <label class="form-check-label">
+                                                                                                              <input type="radio" name="pupils" class="form-check-input"/>Yes
+                                                                                                      </label>
+                                                                                                      &nbsp; &nbsp;  
+                                                                                                      <label class="form-check-label">
+                                                                                                              &nbsp; <input type="radio" name="pupils" class="form-check-input"/>No
+                                                                                                      </label>
+                                                                                                     
+                                                                                              </div>
+                                                                                          </div>
+                          
+                                                                                           
+                                                                                  </div> 
+  
+  
+  
+                                                                                  <div class="col-md-4">
+                                                     
+                                                                                          <div class="form-group">
+                                                                                              <label class="h6">7. Are there enough teachers in the primary school?</label>
+                                                                                              <div class="form-check">
+                                                                                                      <label class="form-check-label">
+                                                                                                              <input type="radio" name="schoolteacher" class="form-check-input"/>Yes
+                                                                                                      </label>
+                                                                                                      &nbsp; &nbsp;  
+                                                                                                      <label class="form-check-label">
+                                                                                                              &nbsp; <input type="radio" name="schoolteacher" class="form-check-input"/>No
+                                                                                                      </label>
+                                                                                                     
+                                                                                              </div>
+                                                                                          </div>
+                          
+                                                                                           
+                                                                                  </div>    
+  
+  
+                                                                                  <div class="col-md-4">
+                                                     
+                                                                                          <div class="form-group">
+                                                                                              <label class="h6">8. Does the primary school have toilets?</label>
+                                                                                              <div class="form-check">
+                                                                                                      <label class="form-check-label">
+                                                                                                              <input type="radio" name="toilet" class="form-check-input"/>Yes
+                                                                                                      </label>
+                                                                                                      &nbsp; &nbsp;  
+                                                                                                      <label class="form-check-label">
+                                                                                                              &nbsp; <input type="radio" name="toilet" class="form-check-input"/>No
+                                                                                                      </label>
+                                                                                                     
+                                                                                              </div>
+                                                                                          </div>
+                          
+                                                                                           
+                                                                                  </div>  
+  
+  
+                                                                                  <div class="col-md-4">
+                                                     
+                                                                                          <div class="form-group">
+                                                                                              <label class="h6">9. If yes, are the toilets in use?</label>
+                                                                                              <div class="form-check">
+                                                                                                      <label class="form-check-label">
+                                                                                                              <input type="radio" name="toiletuse" class="form-check-input"/>Yes
+                                                                                                      </label>
+                                                                                                      &nbsp; &nbsp;  
+                                                                                                      <label class="form-check-label">
+                                                                                                              &nbsp; <input type="radio" name="toiletuse" class="form-check-input"/>No
+                                                                                                      </label>
+                                                                                                     
+                                                                                              </div>
+                                                                                          </div>
+                          
+                                                                                           
+                                                                                  </div> 
+                                                                                  
+                                                                                  
+                                                                                  <div class="col-md-4">
+                                                     
+                                                                                          <div class="form-group">
+                                                                                              <label class="h6">10. Does the primary school have water source/supply?</label>
+                                                                                              <div class="form-check">
+                                                                                                      <label class="form-check-label">
+                                                                                                              <input type="radio" name="water" class="form-check-input"/>Yes
+                                                                                                      </label>
+                                                                                                      &nbsp; &nbsp;  
+                                                                                                      <label class="form-check-label">
+                                                                                                              &nbsp; <input type="radio" name="water" class="form-check-input"/>No
+                                                                                                      </label>
+                                                                                                     
+                                                                                              </div>
+                                                                                          </div>
+                          
+                                                                                           
+                                                                                  </div> 
+                                                                                  <div class="col-md-4">
+                                                                                        <div class="form-group">
+                                                                                           <label class="h6">Gender</label>
+                                                                                          <textarea class="form-control" rows="2"></textarea>    
+                                                                                       </div> 
+                                                                                </div>
+                                                           </div>
+  
+  
+                          
+                                                          
+                                            
+                                                           
+                                                
+                                                          </div>
+                                          </div>
+                                        </div>
+                                
+                                        <div class="card" style="border-radius: 0;">
+                                                <div class="card-header bg-info shadow-lg">
+                                                  <a class="collapsed card-link text-white border-0 h5" >
+                                                    General Question on Education
+                                                    <span class="float-right h6"data-toggle="collapse" href="#collapseFour">Hide</span>
+                                                  </a>
+                                                </div>
+                                                <div id="collapseFour" class="collapsed show">
+                                                  <div class="card-body">
+                                                          <p><i class="fa fa-asterisk text-info"></i> Please kindly provide the answers to the below listed questions as much as you know correctly</p>
+                                                          <div class="row p-4">  
+                                                                        
+          
+                                                                                         
+          
+          
+                                                                                          <div class="col-md-4">
+                                                             
+                                                                                                  <div class="form-group">
+                                                                                                      <label class="h6">9. If yes, are the toilets in use?</label>
+                                                                                                      <div class="form-check">
+                                                                                                              <label class="form-check-label">
+                                                                                                                      <input type="radio" name="toiletuse" class="form-check-input"/>Yes
+                                                                                                              </label>
+                                                                                                              &nbsp; &nbsp;  
+                                                                                                              <label class="form-check-label">
+                                                                                                                      &nbsp; <input type="radio" name="toiletuse" class="form-check-input"/>No
+                                                                                                              </label>
+                                                                                                             
+                                                                                                      </div>
+                                                                                                  </div>
                                   
-                                  </div>
-                    </div>
+                                                                                                   
+                                                                                          </div> 
+                                                                                          
+                                                                                          
+                                                                                          <div class="col-md-4">
+                                                             
+                                                                                                  <div class="form-group">
+                                                                                                      <label class="h6">10. Does the primary school have water source/supply?</label>
+                                                                                                      <div class="form-check">
+                                                                                                              <label class="form-check-label">
+                                                                                                                      <input type="radio" name="water" class="form-check-input"/>Yes
+                                                                                                              </label>
+                                                                                                              &nbsp; &nbsp;  
+                                                                                                              <label class="form-check-label">
+                                                                                                                      &nbsp; <input type="radio" name="water" class="form-check-input"/>No
+                                                                                                              </label>
+                                                                                                             
+                                                                                                      </div>
+                                                                                                  </div>
+                                  
+                                                                                                   
+                                                                                          </div> 
+                                                                                          <div class="col-md-4">
+                                                                                                <div class="form-group">
+                                                                                                   <label class="h6">Gender</label>
+                                                                                                  <textarea class="form-control" rows="2"></textarea>    
+                                                                                               </div> 
+                                                                                        </div>
+                                                                   </div>
+          
+          
+                                  
+                                                                  
+                                                    
+                                                                   
+                                                        
+                                                                  </div>
+                                                  </div>
+                                        </div>
+                                        <div class="card" style="border-radius: 0;">
+                                                        <div class="card-header bg-info shadow-lg">
+                                                          <a class="collapsed card-link text-white border-0 h5" >
+                                                            Vocational Skill Acquisition
+                                                            <span class="float-right h6"data-toggle="collapse" href="#collapseFive">Hide</span>
+                                                          </a>
+                                                        </div>
+                                                        <div id="collapseFive" class="collapsed show">
+                                                          <div class="card-body">
+                                                                  <p><i class="fa fa-asterisk text-info"></i> Please kindly provide the answers to the below listed questions as much as you know correctly</p>
+                                                                  <div class="row p-4">  
+                                                                                
+                  
+                                                                                                 
+                  
+                  
+                                                                                                  <div class="col-md-4">
+                                                                     
+                                                                                                          <div class="form-group">
+                                                                                                              <label class="h6">9. If yes, are the toilets in use?</label>
+                                                                                                              <div class="form-check">
+                                                                                                                      <label class="form-check-label">
+                                                                                                                              <input type="radio" name="toiletuse" class="form-check-input"/>Yes
+                                                                                                                      </label>
+                                                                                                                      &nbsp; &nbsp;  
+                                                                                                                      <label class="form-check-label">
+                                                                                                                              &nbsp; <input type="radio" name="toiletuse" class="form-check-input"/>No
+                                                                                                                      </label>
+                                                                                                                     
+                                                                                                              </div>
+                                                                                                          </div>
+                                          
+                                                                                                           
+                                                                                                  </div> 
+                                                                                                  
+                                                                                                  
+                                                                                                  <div class="col-md-4">
+                                                                     
+                                                                                                          <div class="form-group">
+                                                                                                              <label class="h6">10. Does the primary school have water source/supply?</label>
+                                                                                                              <div class="form-check">
+                                                                                                                      <label class="form-check-label">
+                                                                                                                              <input type="radio" name="water" class="form-check-input"/>Yes
+                                                                                                                      </label>
+                                                                                                                      &nbsp; &nbsp;  
+                                                                                                                      <label class="form-check-label">
+                                                                                                                              &nbsp; <input type="radio" name="water" class="form-check-input"/>No
+                                                                                                                      </label>
+                                                                                                                     
+                                                                                                              </div>
+                                                                                                          </div>
+                                          
+                                                                                                           
+                                                                                                  </div> 
+                                                                                                  <div class="col-md-4">
+                                                                                                        <div class="form-group">
+                                                                                                           <label class="h6">Gender</label>
+                                                                                                          <textarea class="form-control" rows="2"></textarea>    
+                                                                                                       </div> 
+                                                                                                </div>
+                                                                           </div>
+                  
+                  
+                                          
+                                                                          
+                                                            
+                                                                           
+                                                                
+                                                                          </div>
+                                                          </div>
+                                        </div>
+
+                                        <div class="card" style="border-radius: 0;">
+                                                        <div class="card-header bg-info shadow-lg">
+                                                          <a class="collapsed card-link text-white border-0 h5" >
+                                                            Health
+                                                            <span class="float-right h6"data-toggle="collapse" href="#collapseSix">Hide</span>
+                                                          </a>
+                                                        </div>
+                                                        <div id="collapseSix" class="collapsed show">
+                                                          <div class="card-body">
+                                                                  <p><i class="fa fa-asterisk text-info"></i> Please kindly provide the answers to the below listed questions as much as you know correctly</p>
+                                                                  <div class="row p-4">  
+                                                                                
+                  
+                                                                                                 
+                  
+                  
+                                                                                                  <div class="col-md-4">
+                                                                     
+                                                                                                          <div class="form-group">
+                                                                                                              <label class="h6">9. If yes, are the toilets in use?</label>
+                                                                                                              <div class="form-check">
+                                                                                                                      <label class="form-check-label">
+                                                                                                                              <input type="radio" name="toiletuse" class="form-check-input"/>Yes
+                                                                                                                      </label>
+                                                                                                                      &nbsp; &nbsp;  
+                                                                                                                      <label class="form-check-label">
+                                                                                                                              &nbsp; <input type="radio" name="toiletuse" class="form-check-input"/>No
+                                                                                                                      </label>
+                                                                                                                     
+                                                                                                              </div>
+                                                                                                          </div>
+                                          
+                                                                                                           
+                                                                                                  </div> 
+                                                                                                  
+                                                                                                  
+                                                                                                  <div class="col-md-4">
+                                                                     
+                                                                                                          <div class="form-group">
+                                                                                                              <label class="h6">10. Does the primary school have water source/supply?</label>
+                                                                                                              <div class="form-check">
+                                                                                                                      <label class="form-check-label">
+                                                                                                                              <input type="radio" name="water" class="form-check-input"/>Yes
+                                                                                                                      </label>
+                                                                                                                      &nbsp; &nbsp;  
+                                                                                                                      <label class="form-check-label">
+                                                                                                                              &nbsp; <input type="radio" name="water" class="form-check-input"/>No
+                                                                                                                      </label>
+                                                                                                                     
+                                                                                                              </div>
+                                                                                                          </div>
+                                          
+                                                                                                           
+                                                                                                  </div> 
+                                                                                                  <div class="col-md-4">
+                                                                                                        <div class="form-group">
+                                                                                                           <label class="h6">Gender</label>
+                                                                                                          <textarea class="form-control" rows="2"></textarea>    
+                                                                                                       </div> 
+                                                                                                </div>
+                                                                           </div>
+                  
+                  
+                                          
+                                                                          
+                                                            
+                                                                           
+                                                                
+                                                                          </div>
+                                                          </div>
+                                         </div>
+                                         <div class="card" style="border-radius: 0;">
+                                                        <div class="card-header bg-info shadow-lg">
+                                                          <a class="collapsed card-link text-white border-0 h5" >
+                                                            Electricity
+                                                            <span class="float-right h6"data-toggle="collapse" href="#collapseSeven">Hide</span>
+                                                          </a>
+                                                        </div>
+                                                        <div id="collapseSeven" class="collapsed show">
+                                                          <div class="card-body">
+                                                                  <p><i class="fa fa-asterisk text-info"></i> Please kindly provide the answers to the below listed questions as much as you know correctly</p>
+                                                                  <div class="row p-4">  
+                                                                                
+                  
+                                                                                                 
+                  
+                  
+                                                                                                  <div class="col-md-4">
+                                                                     
+                                                                                                          <div class="form-group">
+                                                                                                              <label class="h6">9. If yes, are the toilets in use?</label>
+                                                                                                              <div class="form-check">
+                                                                                                                      <label class="form-check-label">
+                                                                                                                              <input type="radio" name="toiletuse" class="form-check-input"/>Yes
+                                                                                                                      </label>
+                                                                                                                      &nbsp; &nbsp;  
+                                                                                                                      <label class="form-check-label">
+                                                                                                                              &nbsp; <input type="radio" name="toiletuse" class="form-check-input"/>No
+                                                                                                                      </label>
+                                                                                                                     
+                                                                                                              </div>
+                                                                                                          </div>
+                                          
+                                                                                                           
+                                                                                                  </div> 
+                                                                                                  
+                                                                                                  
+                                                                                                  <div class="col-md-4">
+                                                                     
+                                                                                                          <div class="form-group">
+                                                                                                              <label class="h6">10. Does the primary school have water source/supply?</label>
+                                                                                                              <div class="form-check">
+                                                                                                                      <label class="form-check-label">
+                                                                                                                              <input type="radio" name="water" class="form-check-input"/>Yes
+                                                                                                                      </label>
+                                                                                                                      &nbsp; &nbsp;  
+                                                                                                                      <label class="form-check-label">
+                                                                                                                              &nbsp; <input type="radio" name="water" class="form-check-input"/>No
+                                                                                                                      </label>
+                                                                                                                     
+                                                                                                              </div>
+                                                                                                          </div>
+                                          
+                                                                                                           
+                                                                                                  </div> 
+                                                                                                  <div class="col-md-4">
+                                                                                                        <div class="form-group">
+                                                                                                           <label class="h6">Gender</label>
+                                                                                                          <textarea class="form-control" rows="2"></textarea>    
+                                                                                                       </div> 
+                                                                                                </div>
+                                                                           </div>
+                  
+                  
+                                          
+                                                                          
+                                                            
+                                                                           
+                                                                
+                                                                          </div>
+                                                          </div>
+                                        </div>
+
+                                        <div class="card" style="border-radius: 0;">
+                                                        <div class="card-header bg-info shadow-lg">
+                                                          <a class="collapsed card-link text-white border-0 h5" >
+                                                            Drinking Water
+                                                            <span class="float-right h6"data-toggle="collapse" href="#collapseEight">Hide</span>
+                                                          </a>
+                                                        </div>
+                                                        <div id="collapseEight" class="collapsed show">
+                                                          <div class="card-body">
+                                                                  <p><i class="fa fa-asterisk text-info"></i> Please kindly provide the answers to the below listed questions as much as you know correctly</p>
+                                                                  <div class="row p-4">  
+                                                                                
+                  
+                                                                                                 
+                  
+                  
+                                                                                                  <div class="col-md-4">
+                                                                     
+                                                                                                          <div class="form-group">
+                                                                                                              <label class="h6">9. If yes, are the toilets in use?</label>
+                                                                                                              <div class="form-check">
+                                                                                                                      <label class="form-check-label">
+                                                                                                                              <input type="radio" name="toiletuse" class="form-check-input"/>Yes
+                                                                                                                      </label>
+                                                                                                                      &nbsp; &nbsp;  
+                                                                                                                      <label class="form-check-label">
+                                                                                                                              &nbsp; <input type="radio" name="toiletuse" class="form-check-input"/>No
+                                                                                                                      </label>
+                                                                                                                     
+                                                                                                              </div>
+                                                                                                          </div>
+                                          
+                                                                                                           
+                                                                                                  </div> 
+                                                                                                  
+                                                                                                  
+                                                                                                  <div class="col-md-4">
+                                                                     
+                                                                                                          <div class="form-group">
+                                                                                                              <label class="h6">10. Does the primary school have water source/supply?</label>
+                                                                                                              <div class="form-check">
+                                                                                                                      <label class="form-check-label">
+                                                                                                                              <input type="radio" name="water" class="form-check-input"/>Yes
+                                                                                                                      </label>
+                                                                                                                      &nbsp; &nbsp;  
+                                                                                                                      <label class="form-check-label">
+                                                                                                                              &nbsp; <input type="radio" name="water" class="form-check-input"/>No
+                                                                                                                      </label>
+                                                                                                                     
+                                                                                                              </div>
+                                                                                                          </div>
+                                          
+                                                                                                           
+                                                                                                  </div> 
+                                                                                                  <div class="col-md-4">
+                                                                                                        <div class="form-group">
+                                                                                                           <label class="h6">Gender</label>
+                                                                                                          <textarea class="form-control" rows="2"></textarea>    
+                                                                                                       </div> 
+                                                                                                </div>
+                                                                           </div>
+                  
+                  
+                                          
+                                                                          
+                                                            
+                                                                           
+                                                                
+                                                                          </div>
+                                                          </div>
+                                        </div>
+
+                                        <div class="card" style="border-radius: 0;">
+                                                        <div class="card-header bg-info shadow-lg">
+                                                          <a class="collapsed card-link text-white border-0 h5" >
+                                                            Road, Drainage and Bridge
+                                                            <span class="float-right h6"data-toggle="collapse" href="#collapseNine">Hide</span>
+                                                          </a>
+                                                        </div>
+                                                        <div id="collapseNine" class="collapsed show">
+                                                          <div class="card-body">
+                                                                  <p><i class="fa fa-asterisk text-info"></i> Please kindly provide the answers to the below listed questions as much as you know correctly</p>
+                                                                  <div class="row p-4">  
+                                                                                
+                  
+                                                                                                 
+                  
+                  
+                                                                                                  <div class="col-md-4">
+                                                                     
+                                                                                                          <div class="form-group">
+                                                                                                              <label class="h6">9. If yes, are the toilets in use?</label>
+                                                                                                              <div class="form-check">
+                                                                                                                      <label class="form-check-label">
+                                                                                                                              <input type="radio" name="toiletuse" class="form-check-input"/>Yes
+                                                                                                                      </label>
+                                                                                                                      &nbsp; &nbsp;  
+                                                                                                                      <label class="form-check-label">
+                                                                                                                              &nbsp; <input type="radio" name="toiletuse" class="form-check-input"/>No
+                                                                                                                      </label>
+                                                                                                                     
+                                                                                                              </div>
+                                                                                                          </div>
+                                          
+                                                                                                           
+                                                                                                  </div> 
+                                                                                                  
+                                                                                                  
+                                                                                                  <div class="col-md-4">
+                                                                     
+                                                                                                          <div class="form-group">
+                                                                                                              <label class="h6">10. Does the primary school have water source/supply?</label>
+                                                                                                              <div class="form-check">
+                                                                                                                      <label class="form-check-label">
+                                                                                                                              <input type="radio" name="water" class="form-check-input"/>Yes
+                                                                                                                      </label>
+                                                                                                                      &nbsp; &nbsp;  
+                                                                                                                      <label class="form-check-label">
+                                                                                                                              &nbsp; <input type="radio" name="water" class="form-check-input"/>No
+                                                                                                                      </label>
+                                                                                                                     
+                                                                                                              </div>
+                                                                                                          </div>
+                                          
+                                                                                                           
+                                                                                                  </div> 
+                                                                                                  <div class="col-md-4">
+                                                                                                        <div class="form-group">
+                                                                                                           <label class="h6">Gender</label>
+                                                                                                          <textarea class="form-control" rows="2"></textarea>    
+                                                                                                       </div> 
+                                                                                                </div>
+                                                                           </div>
+                  
+                  
+                                          
+                                                                          
+                                                            
+                                                                           
+                                                                
+                                                                          </div>
+                                                          </div>
+                                        </div>
+                                        <div class="card" style="border-radius: 0;">
+                                                        <div class="card-header bg-info shadow-lg">
+                                                          <a class="collapsed card-link text-white border-0 h5" >
+                                                            Community involvement in Government Projects
+                                                            <span class="float-right h6"data-toggle="collapse" href="#collapseTen">Hide</span>
+                                                          </a>
+                                                        </div>
+                                                        <div id="collapseTen" class="collapsed show">
+                                                          <div class="card-body">
+                                                                  <p><i class="fa fa-asterisk text-info"></i> Please kindly provide the answers to the below listed questions as much as you know correctly</p>
+                                                                  <div class="row p-4">  
+                                                                                
+                  
+                                                                                                 
+                  
+                  
+                                                                                                  <div class="col-md-4">
+                                                                     
+                                                                                                          <div class="form-group">
+                                                                                                              <label class="h6">9. If yes, are the toilets in use?</label>
+                                                                                                              <div class="form-check">
+                                                                                                                      <label class="form-check-label">
+                                                                                                                              <input type="radio" name="toiletuse" class="form-check-input"/>Yes
+                                                                                                                      </label>
+                                                                                                                      &nbsp; &nbsp;  
+                                                                                                                      <label class="form-check-label">
+                                                                                                                              &nbsp; <input type="radio" name="toiletuse" class="form-check-input"/>No
+                                                                                                                      </label>
+                                                                                                                     
+                                                                                                              </div>
+                                                                                                          </div>
+                                          
+                                                                                                           
+                                                                                                  </div> 
+                                                                                                  
+                                                                                                  
+                                                                                                  <div class="col-md-4">
+                                                                     
+                                                                                                          <div class="form-group">
+                                                                                                              <label class="h6">10. Does the primary school have water source/supply?</label>
+                                                                                                              <div class="form-check">
+                                                                                                                      <label class="form-check-label">
+                                                                                                                              <input type="radio" name="water" class="form-check-input"/>Yes
+                                                                                                                      </label>
+                                                                                                                      &nbsp; &nbsp;  
+                                                                                                                      <label class="form-check-label">
+                                                                                                                              &nbsp; <input type="radio" name="water" class="form-check-input"/>No
+                                                                                                                      </label>
+                                                                                                                     
+                                                                                                              </div>
+                                                                                                          </div>
+                                          
+                                                                                                           
+                                                                                                  </div> 
+                                                                                                  <div class="col-md-4">
+                                                                                                        <div class="form-group">
+                                                                                                           <label class="h6">Gender</label>
+                                                                                                          <textarea class="form-control" rows="2"></textarea>    
+                                                                                                       </div> 
+                                                                                                </div>
+                                                                           </div>
+                  
+                  
+                                          
+                                                                          
+                                                            
+                                                                           
+                                                                
+                                                                          </div>
+                                                          </div>
+                                         </div>
+
+                                         <div class="card" style="border-radius: 0;">
+                                                        <div class="card-header bg-info shadow-lg">
+                                                          <a class="collapsed card-link text-white border-0 h5" >
+                                                            Citizens Interest in Government Projects
+                                                            <span class="float-right h6"data-toggle="collapse" href="#collapse11">Hide</span>
+                                                          </a>
+                                                        </div>
+                                                        <div id="collapse11" class="collapsed show">
+                                                          <div class="card-body">
+                                                                  <p><i class="fa fa-asterisk text-info"></i> Please kindly provide the answers to the below listed questions as much as you know correctly</p>
+                                                                  <div class="row p-4">  
+                                                                                
+                  
+                                                                                                 
+                  
+                  
+                                                                                                  <div class="col-md-4">
+                                                                     
+                                                                                                          <div class="form-group">
+                                                                                                              <label class="h6">9. If yes, are the toilets in use?</label>
+                                                                                                              <div class="form-check">
+                                                                                                                      <label class="form-check-label">
+                                                                                                                              <input type="radio" name="toiletuse" class="form-check-input"/>Yes
+                                                                                                                      </label>
+                                                                                                                      &nbsp; &nbsp;  
+                                                                                                                      <label class="form-check-label">
+                                                                                                                              &nbsp; <input type="radio" name="toiletuse" class="form-check-input"/>No
+                                                                                                                      </label>
+                                                                                                                     
+                                                                                                              </div>
+                                                                                                          </div>
+                                          
+                                                                                                           
+                                                                                                  </div> 
+                                                                                                  
+                                                                                                  
+                                                                                                  <div class="col-md-4">
+                                                                     
+                                                                                                          <div class="form-group">
+                                                                                                              <label class="h6">10. Does the primary school have water source/supply?</label>
+                                                                                                              <div class="form-check">
+                                                                                                                      <label class="form-check-label">
+                                                                                                                              <input type="radio" name="water" class="form-check-input"/>Yes
+                                                                                                                      </label>
+                                                                                                                      &nbsp; &nbsp;  
+                                                                                                                      <label class="form-check-label">
+                                                                                                                              &nbsp; <input type="radio" name="water" class="form-check-input"/>No
+                                                                                                                      </label>
+                                                                                                                     
+                                                                                                              </div>
+                                                                                                          </div>
+                                          
+                                                                                                           
+                                                                                                  </div> 
+                                                                                                  <div class="col-md-4">
+                                                                                                        <div class="form-group">
+                                                                                                           <label class="h6">Gender</label>
+                                                                                                          <textarea class="form-control" rows="2"></textarea>    
+                                                                                                       </div> 
+                                                                                                </div>
+                                                                           </div>
+                  
+                  
+                                          
+                                                                          
+                                                            
+                                                                           
+                                                                
+                                                                          </div>
+                                                          </div>
+                                        </div>
+
+                                
+                                        <div class="card" style="border-radius: 0;">
+                                                        <div class="card-header bg-info shadow-lg">
+                                                          <a class="collapsed card-link text-white border-0 h5" >
+                                                            Citizens involvement in Budget Process
+                                                            <span class="float-right h6"data-toggle="collapse" href="#collapse12">Hide</span>
+                                                          </a>
+                                                        </div>
+                                                        <div id="collapse12" class="collapsed show">
+                                                          <div class="card-body">
+                                                                  <p><i class="fa fa-asterisk text-info"></i> Please kindly provide the answers to the below listed questions as much as you know correctly</p>
+                                                                  <div class="row p-4">  
+                                                                                
+                  
+                                                                                                 
+                  
+                  
+                                                                                                  <div class="col-md-4">
+                                                                     
+                                                                                                          <div class="form-group">
+                                                                                                              <label class="h6">9. If yes, are the toilets in use?</label>
+                                                                                                              <div class="form-check">
+                                                                                                                      <label class="form-check-label">
+                                                                                                                              <input type="radio" name="toiletuse" class="form-check-input"/>Yes
+                                                                                                                      </label>
+                                                                                                                      &nbsp; &nbsp;  
+                                                                                                                      <label class="form-check-label">
+                                                                                                                              &nbsp; <input type="radio" name="toiletuse" class="form-check-input"/>No
+                                                                                                                      </label>
+                                                                                                                     
+                                                                                                              </div>
+                                                                                                          </div>
+                                          
+                                                                                                           
+                                                                                                  </div> 
+                                                                                                  
+                                                                                                  
+                                                                                                  <div class="col-md-4">
+                                                                     
+                                                                                                          <div class="form-group">
+                                                                                                              <label class="h6">10. Does the primary school have water source/supply?</label>
+                                                                                                              <div class="form-check">
+                                                                                                                      <label class="form-check-label">
+                                                                                                                              <input type="radio" name="water" class="form-check-input"/>Yes
+                                                                                                                      </label>
+                                                                                                                      &nbsp; &nbsp;  
+                                                                                                                      <label class="form-check-label">
+                                                                                                                              &nbsp; <input type="radio" name="water" class="form-check-input"/>No
+                                                                                                                      </label>
+                                                                                                                     
+                                                                                                              </div>
+                                                                                                          </div>
+                                          
+                                                                                                           
+                                                                                                  </div> 
+                                                                                                  <div class="col-md-4">
+                                                                                                        <div class="form-group">
+                                                                                                           <label class="h6">Gender</label>
+                                                                                                          <textarea class="form-control" rows="2"></textarea>    
+                                                                                                       </div> 
+                                                                                                </div>
+                                                                           </div>
+                  
+                  
+                                          
+                                                                          
+                                                            
+                                                                           
+                                                                
+                                                                          </div>
+                                                          </div>
+                                        </div>
+
+                                        <div class="card" style="border-radius: 0;">
+                                                        <div class="card-header bg-info shadow-lg">
+                                                          <a class="collapsed card-link text-white border-0 h5" >
+                                                            Citizens / Community Advocacy Capacity
+                                                            <span class="float-right h6"data-toggle="collapse" href="#collapse13">Hide</span>
+                                                          </a>
+                                                        </div>
+                                                        <div id="collapse13" class="collapsed show">
+                                                          <div class="card-body">
+                                                                  <p><i class="fa fa-asterisk text-info"></i> Please kindly provide the answers to the below listed questions as much as you know correctly</p>
+                                                                  <div class="row p-4">  
+                                                                                
+                  
+                                                                                                 
+                  
+                  
+                                                                                                  <div class="col-md-4">
+                                                                     
+                                                                                                          <div class="form-group">
+                                                                                                              <label class="h6">9. If yes, are the toilets in use?</label>
+                                                                                                              <div class="form-check">
+                                                                                                                      <label class="form-check-label">
+                                                                                                                              <input type="radio" name="toiletuse" class="form-check-input"/>Yes
+                                                                                                                      </label>
+                                                                                                                      &nbsp; &nbsp;  
+                                                                                                                      <label class="form-check-label">
+                                                                                                                              &nbsp; <input type="radio" name="toiletuse" class="form-check-input"/>No
+                                                                                                                      </label>
+                                                                                                                     
+                                                                                                              </div>
+                                                                                                          </div>
+                                          
+                                                                                                           
+                                                                                                  </div> 
+                                                                                                  
+                                                                                                  
+                                                                                                  <div class="col-md-4">
+                                                                     
+                                                                                                          <div class="form-group">
+                                                                                                              <label class="h6">10. Does the primary school have water source/supply?</label>
+                                                                                                              <div class="form-check">
+                                                                                                                      <label class="form-check-label">
+                                                                                                                              <input type="radio" name="water" class="form-check-input"/>Yes
+                                                                                                                      </label>
+                                                                                                                      &nbsp; &nbsp;  
+                                                                                                                      <label class="form-check-label">
+                                                                                                                              &nbsp; <input type="radio" name="water" class="form-check-input"/>No
+                                                                                                                      </label>
+                                                                                                                     
+                                                                                                              </div>
+                                                                                                          </div>
+                                          
+                                                                                                           
+                                                                                                  </div> 
+                                                                                                  <div class="col-md-4">
+                                                                                                        <div class="form-group">
+                                                                                                           <label class="h6">Gender</label>
+                                                                                                          <textarea class="form-control" rows="2"></textarea>    
+                                                                                                       </div> 
+                                                                                                </div>
+                                                                           </div>
+                  
+                  
+                                          
+                                                                          
+                                                            
+                                                                           
+                                                                
+                                                                          </div>
+                                                          </div>
+                                         </div>
+
+
+                                         <div class="card" style="border-radius: 0;">
+                                                        <div class="card-header bg-info shadow-lg">
+                                                          <a class="collapsed card-link text-white border-0 h5" >
+                                                            Security
+                                                            <span class="float-right h6"data-toggle="collapse" href="#collapse14">Hide</span>
+                                                          </a>
+                                                        </div>
+                                                        <div id="collapse14" class="collapsed show">
+                                                          <div class="card-body">
+                                                                  <p><i class="fa fa-asterisk text-info"></i> Please kindly provide the answers to the below listed questions as much as you know correctly</p>
+                                                                  <div class="row p-4">  
+                                                                                
+                  
+                                                                                                 
+                  
+                  
+                                                                                                  <div class="col-md-4">
+                                                                     
+                                                                                                          <div class="form-group">
+                                                                                                              <label class="h6">9. If yes, are the toilets in use?</label>
+                                                                                                              <div class="form-check">
+                                                                                                                      <label class="form-check-label">
+                                                                                                                              <input type="radio" name="toiletuse" class="form-check-input"/>Yes
+                                                                                                                      </label>
+                                                                                                                      &nbsp; &nbsp;  
+                                                                                                                      <label class="form-check-label">
+                                                                                                                              &nbsp; <input type="radio" name="toiletuse" class="form-check-input"/>No
+                                                                                                                      </label>
+                                                                                                                     
+                                                                                                              </div>
+                                                                                                          </div>
+                                          
+                                                                                                           
+                                                                                                  </div> 
+                                                                                                  
+                                                                                                  
+                                                                                                  <div class="col-md-4">
+                                                                     
+                                                                                                          <div class="form-group">
+                                                                                                              <label class="h6">10. Does the primary school have water source/supply?</label>
+                                                                                                              <div class="form-check">
+                                                                                                                      <label class="form-check-label">
+                                                                                                                              <input type="radio" name="water" class="form-check-input"/>Yes
+                                                                                                                      </label>
+                                                                                                                      &nbsp; &nbsp;  
+                                                                                                                      <label class="form-check-label">
+                                                                                                                              &nbsp; <input type="radio" name="water" class="form-check-input"/>No
+                                                                                                                      </label>
+                                                                                                                     
+                                                                                                              </div>
+                                                                                                          </div>
+                                          
+                                                                                                           
+                                                                                                  </div> 
+                                                                                                  <div class="col-md-4">
+                                                                                                        <div class="form-group">
+                                                                                                           <label class="h6">Gender</label>
+                                                                                                          <textarea class="form-control" rows="2"></textarea>    
+                                                                                                       </div> 
+                                                                                                </div>
+                                                                           </div>
+                  
+                  
+                                          
+                                                                          
+                                                            
+                                                                           
+                                                                
+                                                                          </div>
+                                                          </div>
+                                        </div>
+
+                                        <div class="card" style="border-radius: 0;">
+                                                        <div class="card-header bg-info shadow-lg">
+                                                          <a class="collapsed card-link text-white border-0 h5" >
+                                                            Abandoned Projects
+                                                            <span class="float-right h6"data-toggle="collapse" href="#collapse15">Hide</span>
+                                                          </a>
+                                                        </div>
+                                                        <div id="collapse15" class="collapsed show">
+                                                          <div class="card-body">
+                                                                  <p><i class="fa fa-asterisk text-info"></i> Please kindly provide the answers to the below listed questions as much as you know correctly</p>
+                                                                  <div class="row p-4">  
+                                                                                
+                  
+                                                                                                 
+                  
+                  
+                                                                                                  <div class="col-md-4">
+                                                                     
+                                                                                                          <div class="form-group">
+                                                                                                              <label class="h6">9. If yes, are the toilets in use?</label>
+                                                                                                              <div class="form-check">
+                                                                                                                      <label class="form-check-label">
+                                                                                                                              <input type="radio" name="toiletuse" class="form-check-input"/>Yes
+                                                                                                                      </label>
+                                                                                                                      &nbsp; &nbsp;  
+                                                                                                                      <label class="form-check-label">
+                                                                                                                              &nbsp; <input type="radio" name="toiletuse" class="form-check-input"/>No
+                                                                                                                      </label>
+                                                                                                                     
+                                                                                                              </div>
+                                                                                                          </div>
+                                          
+                                                                                                           
+                                                                                                  </div> 
+                                                                                                  
+                                                                                                  
+                                                                                                  <div class="col-md-4">
+                                                                     
+                                                                                                          <div class="form-group">
+                                                                                                              <label class="h6">10. Does the primary school have water source/supply?</label>
+                                                                                                              <div class="form-check">
+                                                                                                                      <label class="form-check-label">
+                                                                                                                              <input type="radio" name="water" class="form-check-input"/>Yes
+                                                                                                                      </label>
+                                                                                                                      &nbsp; &nbsp;  
+                                                                                                                      <label class="form-check-label">
+                                                                                                                              &nbsp; <input type="radio" name="water" class="form-check-input"/>No
+                                                                                                                      </label>
+                                                                                                                     
+                                                                                                              </div>
+                                                                                                          </div>
+                                          
+                                                                                                           
+                                                                                                  </div> 
+                                                                                                  <div class="col-md-4">
+                                                                                                        <div class="form-group">
+                                                                                                           <label class="h6">Gender</label>
+                                                                                                          <textarea class="form-control" rows="2"></textarea>    
+                                                                                                       </div> 
+                                                                                                </div>
+                                                                           </div>
+                  
+                  
+                                          
+                                                                          
+                                                            
+                                                                           
+                                                                
+                                                                          </div>
+                                                          </div>
+                                        </div>
+
+                                        <div class="card" style="border-radius: 0;">
+                                                        <div class="card-header bg-info shadow-lg">
+                                                          <a class="collapsed card-link text-white border-0 h5" >
+                                                            Agricultural / Environmental Sector
+                                                            <span class="float-right h6"data-toggle="collapse" href="#collapse16">Hide</span>
+                                                          </a>
+                                                        </div>
+                                                        <div id="collapse16" class="collapsed show">
+                                                          <div class="card-body">
+                                                                  <p><i class="fa fa-asterisk text-info"></i> Please kindly provide the answers to the below listed questions as much as you know correctly</p>
+                                                                  <div class="row p-4">  
+                                                                                
+                  
+                                                                                                 
+                  
+                  
+                                                                                                  <div class="col-md-4">
+                                                                     
+                                                                                                          <div class="form-group">
+                                                                                                              <label class="h6">9. If yes, are the toilets in use?</label>
+                                                                                                              <div class="form-check">
+                                                                                                                      <label class="form-check-label">
+                                                                                                                              <input type="radio" name="toiletuse" class="form-check-input"/>Yes
+                                                                                                                      </label>
+                                                                                                                      &nbsp; &nbsp;  
+                                                                                                                      <label class="form-check-label">
+                                                                                                                              &nbsp; <input type="radio" name="toiletuse" class="form-check-input"/>No
+                                                                                                                      </label>
+                                                                                                                     
+                                                                                                              </div>
+                                                                                                          </div>
+                                          
+                                                                                                           
+                                                                                                  </div> 
+                                                                                                  
+                                                                                                  
+                                                                                                  <div class="col-md-4">
+                                                                     
+                                                                                                          <div class="form-group">
+                                                                                                              <label class="h6">10. Does the primary school have water source/supply?</label>
+                                                                                                              <div class="form-check">
+                                                                                                                      <label class="form-check-label">
+                                                                                                                              <input type="radio" name="water" class="form-check-input"/>Yes
+                                                                                                                      </label>
+                                                                                                                      &nbsp; &nbsp;  
+                                                                                                                      <label class="form-check-label">
+                                                                                                                              &nbsp; <input type="radio" name="water" class="form-check-input"/>No
+                                                                                                                      </label>
+                                                                                                                     
+                                                                                                              </div>
+                                                                                                          </div>
+                                          
+                                                                                                           
+                                                                                                  </div> 
+                                                                                                  <div class="col-md-4">
+                                                                                                        <div class="form-group">
+                                                                                                           <label class="h6">Gender</label>
+                                                                                                          <textarea class="form-control" rows="2"></textarea>    
+                                                                                                       </div> 
+                                                                                                </div>
+                                                                           </div>
+                  
+                  
+                                          
+                                                                          
+                                                            
+                                                                           
+                                                                
+                                                                          </div>
+                                                          </div>
+                                        </div>
+
+                                        <div class="card" style="border-radius: 0;">
+                                                        <div class="card-header bg-info shadow-lg">
+                                                          <a class="collapsed card-link text-white border-0 h5" >
+                                                            Wetin una want from Senator Ovie Omo-Agege?
+                                                            <span class="float-right h6"data-toggle="collapse" href="#collapse17">Hide</span>
+                                                          </a>
+                                                        </div>
+                                                        <div id="collapse17" class="collapsed show">
+                                                          <div class="card-body">
+                                                                  <p><i class="fa fa-asterisk text-info"></i> Please kindly provide the answers to the below listed questions as much as you know correctly</p>
+                                                                  <div class="row p-4">  
+                                                                                
+                  
+                                                                                                 
+                  
+                  
+                                                                                                  <div class="col-md-4">
+                                                                     
+                                                                                                          <div class="form-group">
+                                                                                                              <label class="h6">9. If yes, are the toilets in use?</label>
+                                                                                                              <div class="form-check">
+                                                                                                                      <label class="form-check-label">
+                                                                                                                              <input type="radio" name="toiletuse" class="form-check-input"/>Yes
+                                                                                                                      </label>
+                                                                                                                      &nbsp; &nbsp;  
+                                                                                                                      <label class="form-check-label">
+                                                                                                                              &nbsp; <input type="radio" name="toiletuse" class="form-check-input"/>No
+                                                                                                                      </label>
+                                                                                                                     
+                                                                                                              </div>
+                                                                                                          </div>
+                                          
+                                                                                                           
+                                                                                                  </div> 
+                                                                                                  
+                                                                                                  
+                                                                                                  <div class="col-md-4">
+                                                                     
+                                                                                                          <div class="form-group">
+                                                                                                              <label class="h6">10. Does the primary school have water source/supply?</label>
+                                                                                                              <div class="form-check">
+                                                                                                                      <label class="form-check-label">
+                                                                                                                              <input type="radio" name="water" class="form-check-input"/>Yes
+                                                                                                                      </label>
+                                                                                                                      &nbsp; &nbsp;  
+                                                                                                                      <label class="form-check-label">
+                                                                                                                              &nbsp; <input type="radio" name="water" class="form-check-input"/>No
+                                                                                                                      </label>
+                                                                                                                     
+                                                                                                              </div>
+                                                                                                          </div>
+                                          
+                                                                                                           
+                                                                                                  </div> 
+                                                                                                  <div class="col-md-4">
+                                                                                                        <div class="form-group">
+                                                                                                           <label class="h6">Gender</label>
+                                                                                                          <textarea class="form-control" rows="2"></textarea>    
+                                                                                                       </div> 
+                                                                                                </div>
+                                                                           </div>
+                  
+                  
+                                          
+                                                                          
+                                                            
+                                                                           
+                                                                
+                                                                          </div>
+                                                          </div>
+                                         </div>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+                                <button type="submit" class="btn btn-primary btn-lg mt-3 mb-3">Submit questionnaire</button>
+        
+        
+        
+                        </div>
+                                  
+                     </div>
                 </form>
+          </div>
+               
             </div>
-            <div class="footer bg-primary text-white p-3 text-center" style="margin-right: -1%; margin-left: -1%;">
-                    <p>&copy; wetinunawant 2022</p>
+            <div class="footer bg-primary text-white p-3 text-center">
+                    <p>&copy; wetinunawant 2022 <span> | <a href="index.html" class="text-white">Home</a></span></p>
                 </div>
     </div>
    
 
     <script src="lib/jquery/dist/jquery.min.js"></script>
-    <script src="lib/jquery-validation/dist/jquery.validate.min.js"></script>
-    <script src="lib/jquery-validation/dist/additional-methods.min.js"></script>
     <script src="lib/bootstrap/dist/js/bootstrap.min.js"></script>
 
     <script>
-    $(document).ready(function(){
         
-        $(".float-right").click(function(){           
-            if($(this).text()=="Hide"){
-                $(this).text("Show");
-            }else{
-                $(this).text("Hide");
-            };
-        });
+    $(document).ready(function(){
+        $('.float-right').click(function(){
+               
+                if($(this).text()=="Hide"){
+                    $(this).text("Show");
+                }else{
+                    $(this).text("Hide");
+                }
+            });
+       
     })
     </script>
 </body>
